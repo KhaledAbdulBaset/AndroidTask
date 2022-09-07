@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question3"
+    android:background="@drawable/java"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        android:shadowColor="#FFFFFF"
+        android:text="SCORE"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/scroe3_id"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scroe3_id"
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="84dp"
+        android:background="#068F0C"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="344dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="136dp"
+        android:background="#FFFFFF"
+        android:text="Q3) When does method overloading is determined?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn31"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:text="a) At run time"
+        android:backgroundTint="@color/button_background_color"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/btn32"
+        android:layout_width="278dp"
+        android:layout_height="53dp"
+        android:text="b) At compile time"
+        android:backgroundTint="@color/button_background_color_true"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn31"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/btn31"
+        app:layout_constraintTop_toBottomOf="@+id/btn31"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <Button
+        android:id="@+id/btn33"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="c) At coding time"
+        android:backgroundTint="@color/button_background_color"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/btn32"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn32"
+        app:layout_constraintTop_toBottomOf="@+id/btn32" />
+
+    <Button
+        android:id="@+id/btn34"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52dp"
+        android:text="D) At Excution time"
+        android:backgroundTint="@color/button_background_color"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn33"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn33"
+        app:layout_constraintTop_toBottomOf="@+id/btn33"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
